@@ -27,9 +27,9 @@ const person = {
 
 // simple for in loop in object***************
 
-// for (const key in person) {
-//   console.log(`key : ${key},  value: ${person[key]}`);
-// }
+for (const key in person) {
+  console.log(`key : ${key},  value: ${person[key]}`);
+}
 
 // console.log(Object.entries(person));
 

@@ -16,7 +16,9 @@ const people = {
 // destructure ways to find this********
 
 const { name, friends, isMarit, hight, age } = people;
-// console.log(age);
+console.log(age);
+console.log(name);
+console.log(isMarit);
 
 // same to find array
 const names = ["sumon", "bolul", "joydeb", "chanchol", "ashis", "animash"];
@@ -30,6 +32,6 @@ const names = ["sumon", "bolul", "joydeb", "chanchol", "ashis", "animash"];
 // console.log(names[2]);
 
 // destructure ways to find this in array********
-// const [kaka, kakaF, myf, myfc] = names;
-// console.log(kaka);
-// console.log(myf);
+const [kaka, kakaF, myf, myfc] = names;
+console.log(kaka);
+console.log(myf);
