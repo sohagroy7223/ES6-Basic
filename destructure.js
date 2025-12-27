@@ -6,7 +6,7 @@ const people = {
   hight: 67,
 };
 
-// normal ways to find this*******
+// normal ways to find this in object*******
 
 // console.log(people);
 // console.log(people.name);
@@ -29,7 +29,7 @@ const names = ["sumon", "bolul", "joydeb", "chanchol", "ashis", "animash"];
 // console.log(names[3]);
 // console.log(names[2]);
 
-// destructure ways to find this********
+// destructure ways to find this in array********
 const [kaka, kakaF, myf, myfc] = names;
 console.log(kaka);
 console.log(myf);
